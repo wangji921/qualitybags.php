@@ -25,7 +25,7 @@ function checkUserEnable($inputUsername, $inputPassword) {
 
     $row = $result->fetch();
 
-    if ($row['Enabled'] == 0) {
+    if ($row['Enabled'] == 1) {
         return true;
     }
     else {

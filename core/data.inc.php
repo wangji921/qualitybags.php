@@ -153,7 +153,7 @@ class MySQLResult {
      * @access public
      */
     function fetch () {
-        if ( $row=mysqli_fetch_array($this->query,MYSQL_ASSOC) ) {
+        if ( $row=mysqli_fetch_array($this->query) ) {
             return $row;
         } else if ( $this->size() > 0 ) {
             mysqli_data_seek($this->query,0);
