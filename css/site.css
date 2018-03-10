@@ -183,3 +183,7 @@ a {
     font-size: 12em;
     /*line-height: 0.98em;*/
 }
+
+#mainContent {
+    padding-top: 5em;
+}

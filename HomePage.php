@@ -66,5 +66,5 @@
         <span class="sr-only">Next</span>
     </a>
 
-    <div class="carousel-caption indexheading">Quality Bags</div>
+    <div class="carousel-caption indexheading hide">Quality Bags</div>
 </div>

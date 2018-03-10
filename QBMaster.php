@@ -1,9 +1,6 @@
 <?php include('navbar.php');?>
 
-<br />
-<br />
-<br />
-<div class="container body-content">
+<div class="container body-content" id="mainContent">
     <?php include($page_content);?>
 </div>
 
